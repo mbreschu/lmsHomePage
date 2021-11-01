@@ -159,7 +159,7 @@ body.is-logged-out .Mrphs-topHeader{min-height:50px;}
 }
 .Mrphs-mainHeader{box-shadow:0 1px 5px rgba(0,0,0,0.3);position:relative;}
 .Mrphs-mainHeader .Mrphs-headerLogo{width:100%;overflow:hidden;padding:0 1em;height:52px;background:#c00;text-align:center;-webkit-transition:width 0.5s linear 0s 0s ease 0s;transition:width 0.5s linear 0s 0s ease 0s;}
-.Mrphs-mainHeader .Mrphs-headerLogo .Mrphs-headerLogo--institution{background:url("https://lms.brocku.ca/library/skin/brock/images/brock.svg") no-repeat center center;width:126px;height:100%;float:left;background-size:126px 40px;}
+.Mrphs-mainHeader .Mrphs-headerLogo .Mrphs-headerLogo--institution{background:url("https://lms.brocku.ca/library/skin/images/brock.svg") no-repeat center center;width:126px;height:100%;float:left;background-size:126px 40px;}
 .Mrphs-mainHeader .Mrphs-loginUser{display:inline-flex;display:-webkit-flex;}
 .Mrphs-mainHeader .Mrphs-loginUser p{margin:0.05em 1.5em 0 0;}
 @media only screen and (max-width: 800px){
