@@ -232,7 +232,7 @@ body.is-logged-out .Mrphs-topHeader{min-height:50px;}
 }
 @media only screen and (max-width: 800px){
 .Mrphs-siteHierarchy{background-color:transparent;box-shadow:none;position:absolute;top:0;height:48px;line-height:48px;white-space:nowrap;left:0;}
-.Mrphs-siteHierarchy .Mrphs-hierarchy--siteName a:hover .Mrphs-hierarchy--siteName-label{text-decoration:underline;}
+.Mrphs-siteHierarchy .Mrphs-hierarchy--siteName .Mrphs-hierarchy--siteName-label{display:none;visibility:hidden;}
 .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName{display:none;}
 .Mrphs-siteHierarchy a.Mrphs-hierarchy--toolName:hover{color:#000;border-bottom:1px solid #000;}
 .Mrphs-siteHierarchy .Mrphs-breadcrumb--reset-icon{display:none;}
