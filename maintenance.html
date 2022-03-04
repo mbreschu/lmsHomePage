@@ -8,6 +8,18 @@
         <!--Use the unified CSS for the mainpage-->
         <link href="mainPageCss.css" rel="stylesheet" />
         <title>Brock Sakai : Isaak : Maintenance</title>
+        <script>
+            function getUserIdFromCurrentSession(){
+		        let session_request = new XMLHttpRequest()
+		        session_request.open('GET', 'https://lms.brocku.ca/direct/session/current.json', true)
+		        session_request.onload = () =>{
+			        let session_result = JSON.parse(session_request.responseText)
+			        console.log(session_result["userEid"])
+		        }
+		        session_request.send()
+	        }
+	        window.onload = getUserIdFromCurrentSession;
+        </script>
     </head>
 
     <body  class="Mrphs-portalBody is-logged-out"  >
